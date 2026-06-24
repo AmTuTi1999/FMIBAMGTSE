@@ -7,8 +7,8 @@ Empirical demonstration of the two failure modes the theory predicts, and that a
 
 | Condition | Methods | Symptom |
 |-----------|---------|---------|
-| **(C2) Conditional separation** | Assign nonzero score to a fully-mediated source → spurious edge |
-| **(C1) On-manifold evaluation** | Score depends on `f` off `supp(p)` → different scores for `f1` and `f3` that agree on the manifold |
+| **(C2) Conditional separation** |Marginal Based Methods, Perturbation Based Methods| Assign nonzero score to a fully-mediated source → spurious edge |
+| **(C1) On-manifold evaluation** |Perturbation Based Methods, Gradient Based Methods, Marginal Based Methods| Score depends on `f` off `supp(p)` → different scores for `f1` and `f3` that agree on the manifold |
 
 
 ---
