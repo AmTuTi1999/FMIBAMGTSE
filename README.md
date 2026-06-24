@@ -1,6 +1,4 @@
-# DAGFaith — Experiments
-
-**The Failures of Marginal Influence-Based Attribution Methods for Global Time Series Explanations**
+# The Failures of Marginal Influence-Based Attribution Methods for Global Time Series Explanations
 
 Empirical demonstration of the two failure modes the theory predicts, and that an admissible instantiation passes where the others fail.
 ---
