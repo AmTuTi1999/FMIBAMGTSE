@@ -1,0 +1,2 @@
+beta,gamma,delta,expected_grad_x1,numerical_grad_x1,error,edge_absent,gradient_nonzero
+1.0,0.5,0.5,-0.25,-0.25,0.0,True,True

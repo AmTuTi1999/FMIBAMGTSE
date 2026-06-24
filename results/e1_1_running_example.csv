@@ -1,0 +1,8 @@
+method,score_X1_f1,score_X1_f2,correct_f1,correct_f2,correct_f3,C2_violation,C1_violation
+KernelSHAP(marginal),0.0,0.35991838574409485,True,True,False,False,True
+TimeSHAP,0.0,0.3884000778198242,True,True,False,False,True
+ShapTime,0.5,0.5,False,True,False,True,True
+TS-MULE(uniform),0.017180053517222404,0.34664568305015564,False,True,False,True,True
+WinIT,0.0,0.0,True,False,True,False,False
+Dynamask,0.0,0.0,True,False,True,False,False
+FIT,0.0,0.0,True,False,True,False,False

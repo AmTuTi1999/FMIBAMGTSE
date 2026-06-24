@@ -1,0 +1,18 @@
+% Table A — Running-example attribution scores on X1
+\begin{tabular}{llrcrcrcc}
+\toprule
+Method & Family & $\Phi^{f_1}_1$ & $f_1$ ok & $\Phi^{f_2}_1$ & $f_2$ ok & $\Phi^{f_3}_1$ & $f_3$ ok \\
+\midrule
+KernelSHAP & Marginal & 0.0000 & ✓ & 0.3599 & ✓ & 0.1887 & ✗ \\
+TimeSHAP & Marginal & 0.0000 & ✓ & 0.3884 & ✓ & 0.2153 & ✗ \\
+ShapTime & Marginal & 0.5000 & ✗ & 0.5000 & ✓ & 0.5000 & ✗ \\
+TS-MULE & Marginal & 0.0172 & ✗ & 0.3466 & ✓ & 0.1865 & ✗ \\
+WinIT & Marginal & 0.0000 & ✓ & 0.0000 & ✗ & 0.0000 & ✓ \\
+Dynamask & Marginal & 0.0000 & ✓ & 0.0000 & ✗ & 0.0000 & ✓ \\
+FIT & Marginal & 0.0000 & ✓ & 0.0000 & ✗ & 0.0000 & ✓ \\
+Saliency & Gradient & 0.0000 & ✓ & 0.3333 & ✓ & 0.1429 & ✗ \\
+IG(zero) & Gradient & 0.0000 & ✓ & 0.5000 & ✓ & 0.2500 & ✗ \\
+TIG & Gradient & 0.0000 & ✓ & 0.5000 & ✓ & 0.2500 & ✗ \\
+SmoothGrad & Gradient & 0.0000 & ✓ & 0.3333 & ✓ & 0.1429 & ✗ \\
+\bottomrule
+\end{tabular}

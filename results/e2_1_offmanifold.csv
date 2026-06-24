@@ -1,0 +1,7 @@
+method,score_X1_f1,score_X1_f3,diff_X1,C1_violation,max_f1_f3_diff_on_manifold
+Saliency,0.0,0.1428571492433548,0.1428571492433548,True,0.0
+IG(zero),0.0,0.25,0.25,True,0.0
+IG(mean),0.0,0.25,0.25,True,0.0
+TIG,0.0,0.25,0.25,True,0.0
+SmoothGrad,0.0,0.1428571492433548,0.1428571492433548,True,0.0
+EAbsGrad,0.0,0.1428571492433548,0.1428571492433548,True,0.0

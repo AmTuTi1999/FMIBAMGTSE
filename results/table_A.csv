@@ -1,0 +1,12 @@
+Method,Family,score_f1,correct_f1,score_f2,correct_f2,score_f3,correct_f3,C2_violation,C1_violation
+KernelSHAP,Marginal,0.0,✓,0.35991838574409485,✓,0.1886643022298813,✗,False,False
+TimeSHAP,Marginal,0.0,✓,0.3884000778198242,✓,0.21528945863246918,✗,False,False
+ShapTime,Marginal,0.5,✗,0.5,✓,0.5,✗,True,False
+TS-MULE,Marginal,0.017180053517222404,✗,0.34664568305015564,✓,0.18645113706588745,✗,True,False
+WinIT,Marginal,0.0,✓,0.0,✗,0.0,✓,False,False
+Dynamask,Marginal,0.0,✓,0.0,✗,0.0,✓,False,False
+FIT,Marginal,0.0,✓,0.0,✗,0.0,✓,False,False
+Saliency,Gradient,0.0,✓,0.3333333432674408,✓,0.1428571492433548,✗,False,True
+IG(zero),Gradient,0.0,✓,0.5,✓,0.25,✗,False,True
+TIG,Gradient,0.0,✓,0.5,✓,0.25,✗,False,True
+SmoothGrad,Gradient,0.0,✓,0.3333333432674408,✓,0.1428571492433548,✗,False,True

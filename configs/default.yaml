@@ -1,0 +1,37 @@
+seed: 42
+results_dir: results
+
+running_example:
+  beta: 1.0
+  delta: 0.5
+  n_samples: 2000
+  gamma_sweep: [-2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0]
+
+var_benchmark:
+  configs:
+    - {D: 3, K: 2, n: 500, label: "small"}
+    - {D: 5, K: 3, n: 1000, label: "medium"}
+    - {D: 8, K: 2, n: 2000, label: "large"}
+  sparsity: 0.4
+  noise_std: 0.1
+
+graph:
+  tau: 0.005   # threshold for induce_graph (fraction of max score)
+
+ci_test:
+  alpha: 0.05
+  backend: partial_corr   # or kernel
+  n_permutations: 199
+
+attribution:
+  batch_size: 64
+  n_baselines: 50
+  n_smoothgrad_samples: 50
+  smoothgrad_noise: 0.1
+  shap_n_background: 100
+
+training:
+  epochs: 50
+  lr: 1e-3
+  hidden: 64
+  batch_size: 128
