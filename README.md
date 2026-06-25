@@ -53,6 +53,12 @@ pip install -r requirements.txt
 Core deps: `numpy scipy pandas scikit-learn torch networkx matplotlib tqdm pyyaml`  
 Optional (richer method implementations): `shap captum lime`
 
+The experiments also depend on the WinIT library
+
+```bash
+git clone https://github.com/layer6ai-labs/WinIT.git
+```
+
 ---
 
 ## Quickstart
